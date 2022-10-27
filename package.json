@@ -16,9 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build"
+
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://yts.torrentbay.to",
-  "homepage": "https://bizzou526.github.io/movie_app_2022"
+  "proxy": "https://yts.torrentbay.to"
 }
